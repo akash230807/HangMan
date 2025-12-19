@@ -16,8 +16,6 @@ def main():
     words_list = load_words(excel_file)
     selected_word = choose_random_word(words_list)
 
-    print(selected_word)
-
     max_attempts = len(selected_word) + 2
     attempts = 0
     guessed_letters = set()
@@ -53,3 +51,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
